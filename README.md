@@ -29,7 +29,7 @@ You will need an API key from OpenWeather to access their weather data.
 
 Clone this repository to your local machine:
 
-          git clone <repository-url>
+          git clone https://github.com/Krishnan005K/WeatherApp
 
 Navigate to the project directory:
 
