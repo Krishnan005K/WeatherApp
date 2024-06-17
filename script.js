@@ -65,7 +65,7 @@ function currentTime() {
 currentTime();
 
 function fetching(term, ee) {
-  let ApiKey = "8a84ea5f93efbc7c269dad9d3cf888b2";
+  let ApiKey = "YOUR_API_KEY";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${term}&lang=${ee}&appid=${ApiKey}&units=metric`;
   fetch(url)
     .then((res) => res.json())
